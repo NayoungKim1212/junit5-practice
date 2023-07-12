@@ -6,12 +6,12 @@ public class BeforeAfterTest {
 
     @BeforeEach
     void setUp() {
-        System.out.println("각각의 테스트 코드가 실행되지 전에 수행");
+        System.out.println("각각의 테스트 코드가 실행되기 전에 수행");
     }
 
     @AfterEach
     void tearDown() {
-        System.out.println("각각의 테스트 코드가 실해왼 후에 수행\n");
+        System.out.println("각각의 테스트 코드가 실행된 후에 수행\n");
     }
 
     @BeforeAll
